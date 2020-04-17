@@ -4,9 +4,9 @@
 #posibles librerias -lallegro_primitives -lallegro_font -lallegro_ttf -lallegro_dialog -lallegro_image
 
 CPP=g++
-PROJ=main
+PROJ=space
 OBJ=main.o
-CFLAGS=$(pkg-config --libs allegro-5) -lallegro -lallegro_main -lallegro_dialog -lallegro_ttf -lallegro_font -lallegro_primitives
+CFLAGS=$(pkg-config --libs allegro-5) -lallegro -lallegro_main -lallegro_dialog -lallegro_ttf -lallegro_font -lallegro_primitives -lallegro_image
 
 #Reglas explicitas
 all: $(OBJ)

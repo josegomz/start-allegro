@@ -1,6 +1,6 @@
 
 //Objetos id
-enum IDS{JUGADOR, BALAS, ENEMIGOS};
+enum IDS{JUGADOR, BALA, ENEMIGO};
 
 
 //jugador
@@ -15,3 +15,21 @@ struct NaveEspacial{
 	int boundy;
 };
 
+struct Bala{
+	int ID;
+	int x;
+	int y;
+	bool vivo;
+	int velocidad;
+};
+
+struct Meteorito{
+	int ID;
+	int x;
+	int y;
+	bool vivo;
+	int velocidad;
+	int boundx;
+	int boundy;
+	int velocidady;
+};
