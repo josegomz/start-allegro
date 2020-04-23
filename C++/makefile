@@ -6,7 +6,7 @@
 CPP=g++
 PROJ=space
 OBJ=main.o
-CFLAGS=$(pkg-config --libs allegro-5) -lallegro -lallegro_main -lallegro_dialog -lallegro_ttf -lallegro_font -lallegro_primitives -lallegro_image
+CFLAGS=$(pkg-config --libs allegro-5) -lallegro -lallegro_main -lallegro_dialog -lallegro_ttf -lallegro_font -lallegro_primitives -lallegro_image -lallegro_audio -lallegro_acodec
 
 #Reglas explicitas
 all: $(OBJ)
