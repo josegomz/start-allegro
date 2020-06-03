@@ -28,6 +28,7 @@ struct Enemigo{
 	int x;
 	int y;
 	bool vivo;
+	int vidas;
 	int velocidad;
 	int boundx;
 	int boundy;
